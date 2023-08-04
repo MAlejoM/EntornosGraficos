@@ -1,0 +1,27 @@
+1)
+HTML (HyperText Markup Language) es el lenguaje estandar utilizado para crear y diseñar páginas web.
+Fue creado por Tim Berners-Lee en 1990.
+Sus versiones son: HTML(1991), HTML 2.0(1995), HTML 3.2(1997), HTML 4.01(1999), HTML5(2014) siendo esta ultima la version que se encuentra en uso hoy en dia.
+2)
+Recomienda:
+    -Separar estructuras y presentacion.
+    -Considerar la accesibilidad universal a la red. 
+    -Ayudar a los agentes de usuario con la representacion incremental.
+3) 
+Un elemento o atributo desaprobado es aquel que ha quedado anticuado por la presencia de estructuras nuevas.
+Un elemento o atributo obsoleto es aquél para el cual no hay garantía de soporte por parte de un agente de usuario.
+4)
+DTD se le llama a la definicion de tipo de documento.
+Las DTD se utilizan para describir la estructura y el contenido válidos de un documento marcado.
+Los DTDs contemplados son:
+    -Comentarios DTD.
+    -Definiciones de entidades paramétricas.
+    -Declaraciones de elementos.
+    -Declaraciones de atributos.
+5)
+Un metadato es información sobre un documento.
+La especificación de metadatos implica dos pasos:
+    -Declaracion de una propiedad y de un valor para esta.
+    -Referencia a un perfil en el que se definen la propiedad y uss valores.
+
+Info tomada desde: http://html.conclase.net/w3c/html401-es/cover.html
