@@ -1,2 +1,1 @@
-# practicaHTML
- ex1
+Ej de la practica de EntornosGraficos
