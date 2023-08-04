@@ -1,0 +1,6 @@
+a)
+Es un comentario, estos no se van a mostrar en nuestra pagina web. 
+En este caso se esta usando para indicar una fecha en la que el codigo fue controlado.
+b)
+Es un elemento <div>, se usa para agrupar contenido por bloques.
+El atributo <id> es opcional, pero se usa con el fin de identificar objetos con el fin de darle un estilo.
