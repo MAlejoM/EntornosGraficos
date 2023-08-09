@@ -1,0 +1,50 @@
+a)
+<a href="http://www.google.com.ar">Click aquí para ir a Google</a>
+es un link que redirecciona hacia la pagina google.com
+
+<a href="http://www.google.com.ar" target="_blank">Click aquí para ir a Google</a>
+es un link que redirecciona hacia la pagina google.com, pero en este caso se abre en una nueva ventana
+
+<a href="http://www. google.com.ar" type="text/html" hreflang="es" charset="utf-8" rel="help">
+la url esta mal, no nos redirecciona a ningun lado; luego nos indica el tipo de doc, lenguaje, caracteres y tipo de enlace.
+
+<a href="#">Click aquí para ir a Google</a>
+recarga la pagina actual
+
+<a href="#arriba">Click aquí para volver arriba</a>
+nos dirige a la seccion de la pagina que tenga "arriba" como in
+
+<a name="arriba" id="arriba"></a>
+parecido al caso anterior, pero al no tener href no funciona como hipervinculo
+tampoco tiene texto, por lo tanto el usuario no podra verlo
+
+b)
+<p>
+    <img src="im1.jpg" alt="imagen1" />    
+    <a href="http://www.google.com.ar">Click aquí</a>
+</p>
+muestra un una imagen y una url para ir hacia google. Todo esto esta dentro de un parrafo
+
+<p>
+    <a href="http://www.google.com.ar">
+        <img src="im1.jpg" alt="imagen1" />
+    </a> 
+    Click aquí
+<p>
+similar al anterior, solo que aqui el vinculo esta en la imagen por lo que para ir hacia google deberiamos presionar sobre ella
+
+<p>
+    <a href="http://www.google.com.ar">
+        <img src="im1.jpg" alt="imagen1" />
+        Click aquí
+    </a>
+</p>
+en este caso el vinculo esta en ambos lados, imagen y texto
+
+<p>
+    <a href="http://www.google.com.ar">
+        <img src="im1.jpg" alt="imagen1" />
+    </a> 
+    <a href="http://www.google.com.ar">Click aquí</a>
+</p>
+aqui son dos vinculos separados, uno en la imagen y otro en el texto
