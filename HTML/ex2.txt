@@ -1,6 +1,63 @@
-a)
+a)  <!-- Código controlado el día 12/08/2009 -->
 Es un comentario, estos no se van a mostrar en nuestra pagina web. 
 En este caso se esta usando para indicar una fecha en la que el codigo fue controlado.
-b)
+
+b)  <div id="bloque1">Contenido del bloque1</div>
 Es un elemento <div>, se usa para agrupar contenido por bloques.
 El atributo <id> es opcional, pero se usa con el fin de identificar objetos con el fin de darle un estilo.
+
+c)  <img src="" alt="lugar imagen" id="im1" name="im1" width="32" height="32"longdesc="detalles.htm" />
+Una imagen (img) se utiliza en el body del documento html, tiene como atributos el camino a la imagen (src=""),
+una descripcion de la imagen por si esta no se visualiza (alt), una identificacion (id), una altura y ancho
+(width y height) y una url que lleva a una descripcion de la imagen (longdesc).
+El atributo name no debe usarse en imagenes.
+src y alt son atributos obligatorios
+
+d)  <meta name="keywords" lang="es" content="casa, compra, venta, alquiler " />
+    <meta http-equiv="expires" content="16-Sep-2019 7:49 PM" /> 
+la etiqueta <meta> se usa para declarar metadatos, va dentro del <head>
+lang indica el lenguaje, en este caso "es"
+name indica el nombre del metadato "keywords"
+content indica el valor de un metadato, "casa, compra, venta, alquiler" y "16-Sep-2019 7:49 PM" 
+http-equiv es una direccion para el interprete de HTML. Su valor es "expires"
+Ningun atributo es obligatorio
+
+e)  <a href="http://www.e-style.com.ar/resumen.html" type="text/html" hreflang="es" charset="utf-8" rel="help">Resumen HTML </a>
+<a> nos indica un hipervinculo, va dentro del <body>
+href indica la url a la que dirige "http://www.e-style.com.ar/resumen.html"
+type indica el tipo de contenido de la url "text/html"
+hreflang indica el idioma del contenido de la url "es"
+charset define como se representan y codifican los caracteres en un documento de texto "utf-8"
+rel indica que relacion tienen la pagina actual y la url "help"
+En este caso son todos opcionales
+
+f)  <table width="200" summary="Datos correspondientes al ejercicio vencido">
+    <caption align="top"> Título </caption>
+    <tr>
+        <th scope="col">&nbsp;</th>
+        <th scope="col">A</th>
+        <th scope="col">B</th>
+        <th scope="col">C</th>
+    </tr>
+    <tr>
+        <th scope="row">1º</th>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <th scope="row">2º</th>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+</table>
+<table> muestra una tabla dentro del <body>
+    width sirve para dar el ancho deseado de la misma "200"
+    summary "Datos correspondientes al ejercicio vencido"
+<caption> proporciona un titulo para la tabla, se usa dentro de <table>
+    <align> da la ubicacion para el titulo "top"
+<tr> define una fila de la tabla
+<th> y <td> son las celdas de la tabla, para el encabezado y para las celdas de datos respectivamente. Deben estar dentro de <tr>
+    <scope> indica la relacion entre las celdas, en este caso el <th> toma el valor "col", esto quiere decir que es el encabezado de su respectiva columna
+    y en el caso de <td> toma el valor "row", que quiere decir que se relaciona con los datos de la fila
