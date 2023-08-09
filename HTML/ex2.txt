@@ -7,11 +7,14 @@ Es un elemento <div>, se usa para agrupar contenido por bloques.
 El atributo <id> es opcional, pero se usa con el fin de identificar objetos con el fin de darle un estilo.
 
 c)  <img src="" alt="lugar imagen" id="im1" name="im1" width="32" height="32"longdesc="detalles.htm" />
-Una imagen (img) se utiliza en el body del documento html, tiene como atributos el camino a la imagen (src=""),
-una descripcion de la imagen por si esta no se visualiza (alt), una identificacion (id), una altura y ancho
-(width y height) y una url que lleva a una descripcion de la imagen (longdesc).
-El atributo name no debe usarse en imagenes.
-src y alt son atributos obligatorios
+<img/> se usa para colocar una imagen, va dentro del <body>
+src indica que estamos mostrando, en este caso no tiene valor
+alt sirve para dar un texto alternativo en caso de que la imagen no cargue
+id es un identificador de la imagen "im1"
+name misma funcion que id "im1"
+width sirvepara dar un ancho deseado a la imagen "32"
+height sirve para dar una altura deseada a la imagen "32"
+longdesc sirve para dar una descripcion detallada de la imagen 
 
 d)  <meta name="keywords" lang="es" content="casa, compra, venta, alquiler " />
     <meta http-equiv="expires" content="16-Sep-2019 7:49 PM" /> 
