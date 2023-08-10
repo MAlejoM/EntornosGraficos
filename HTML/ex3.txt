@@ -17,7 +17,7 @@ nos dirige a la seccion de la pagina que tenga "arriba" como in
 <a name="arriba" id="arriba"></a>
 parecido al caso anterior, pero al no tener href no funciona como hipervinculo
 tampoco tiene texto, por lo tanto el usuario no podra verlo
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 b)
 <p>
     <img src="im1.jpg" alt="imagen1" />    
@@ -48,3 +48,284 @@ en este caso el vinculo esta en ambos lados, imagen y texto
     <a href="http://www.google.com.ar">Click aquí</a>
 </p>
 aqui son dos vinculos separados, uno en la imagen y otro en el texto
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+c)
+<ul>
+    <li>xxx</li>
+    <li>yyy</li>
+    <li>zzz</li>
+</ul>
+el codigo nos muestra una lista desordenada de tres objetos (xxx,yyy,zzz)
+
+<ol>
+    <li>xxx</li>
+    <li>yyy</li>
+    <li>zzz</li>
+</ol>
+al igual que en el anterior nos muetra los mismos objetos, solo que ahora estan ordenados, por lo tanto se visualizan con un numero segun su ubicacion 1-xxx, 2-yyy, 3-zzz
+
+<ol>
+    <li>xxx</li>
+</ol>
+<ol>
+    <li value="2">yyy</li>
+</ol>
+<ol>
+    <li value="3">zzz</li>
+</ol>
+es una semantica distinta que la anterior pero muestra lo mismo, en la que el valor de cada lista esta dado por el atributo value
+
+<blockquote>
+    <p>
+        1. xxx <br/>
+        2. yyy <br/>
+        3. zzz
+    </p>
+</blockquote>
+en este caso si no se coloca el salto de linea <br/>, las listas estarian una al lado de la otra ya que se usa <blockquote>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+d)
+<table border="1" width="300">
+    <tr>
+        <th>Columna 1</th>
+        <th>Columna 2</th>
+    </tr>
+    <tr>
+        <td>Celda 1</td>
+        <td>Celda 2</td>
+    </tr>
+    <tr>
+        <td>Celda 3</td>
+        <td>Celda 4</td>
+    </tr>
+</table>
+es una tabla con dos columnas y tres filas que tiene un ancho asignado de 300px. Tambien se da un estilo al borde de tipo "1"
+
+<table border="1" width="300">
+    <tr>
+        <td>
+            <div align="center">
+                <strong>Columna1</strong>
+            </div>
+        </td>
+        <td>
+            <div align="center">
+                <strong>Columna2</strong>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>Celda 1</td>
+        <td>Celda 2</td>
+    </tr>
+    <tr>
+        <td>Celda 3</td>
+        <td>Celda 4</td>
+    </tr>
+</table>
+Es similar a la anterior pero en esta no se utilizan encabezados, sino que la primer fila es una celda de datos con un div que en su interior tiene texto marcado con <strong> que hace que la fuente este en formato "negrita"
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+e)
+<table width="200">
+    <caption>Título</caption>
+    <tr>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+    </tr>
+    <tr>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+    </tr>
+</table>
+Es una tabla con titulo, las columnas y filas tinen dado un color de fondo gris
+
+<table width="200">
+<tr>
+    <td colspan="3">
+        <div align="center">Título</div>
+    </td>
+</tr>
+    <tr>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+    </tr>
+    <tr>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+    </tr>
+</table>
+similar a la anterior, solo que en este caso la primer fila simula ser un titulo mediante el uso de colspan y align
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+f)
+<table width="200">
+    <tr>
+        <td colspan="3">
+            <div align="center">Título</div>
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="2" bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+    </tr>
+    <tr>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+    </tr>
+</table>
+<!-- ------------------------------------ -->
+<table width="200">
+    <tr>
+        <td colspan="3">
+            <div align="center">Título</div>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+    </tr>
+    <tr>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+        <td bgcolor="#dddddd">&nbsp;</td>
+    </tr>
+</table>
+son dos tablas de 3 col y 3 filas parecidas, simulando el titulo como en el apartado anterior. Se diferencian en que la primera junta dos celdas en la primer columna mediante rowspan y en la otra se juntan dos columnas en una celda mediante colspan.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+g)
+<table width="200" border="1">
+    <tr>
+        <td colspan="3">
+            <div align="center">Título</div>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2"rowspan="2">&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td width="50%">&nbsp;</td>
+    </tr>
+</table>
+<!-- ------------------------------------------------------- -->
+<table width="200" border="1" cellpadding="0" cellspacing="0">
+    <tr>
+        <td colspan="2">
+            <div align="center">Título</div>
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="2">&nbsp;</td>
+        <td>&nbsp;</td>
+    </tr>
+    <tr>
+        <td width="50%">&nbsp;</td>
+    </tr>
+</table>
+son dos tablas que se las diferencia por los bordes de la segunda, los cuales se unen mediante el uso de cellpadding=0 y cellspacing=0
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+h)
+<form id="form1" name="form1" action="procesar.php" method="post" target="_blank">
+<fieldset>
+    <legend>LOGIN</legend>
+    Usuario: <input type="text" id="usu1" name="usu1" value="xxx" />
+    <br/>
+    Clave: <input type="password" id="clave1" name="clave1" value="xxx" />
+</fieldset>
+<input type="submit" id="boton1" name="boton1" value="Enviar" />
+</form>
+<!-- --------------------------------------- -->
+<form id="form2" name="form2" action="" method="get" target="_blank">
+    LOGIN <br/>
+    <label>Usuario: 
+        <input type="text" id="usu2" name="usu2"/>
+    </label>
+    <br/>
+    <label>
+        Clave: 
+        <input type="text" id="clave2" name="clave2" />
+    </label>
+    <br/>
+    <input type="submit" id="boton2" name="boton2" value="Enviar" />
+</form>
+<!-- ------------------------------------------------------------- -->
+<form id="form3" name="form3" action="mailto:xx@xx.com” enctype=text/plain method="post" target="_blank">
+    <fieldset>
+        <legend>LOGIN</legend>
+        Usuario: <input type="text" id="usu3" name="usu3" /> <br/>
+        Clave: <input type="password" id="clave3" name="clave3" />
+    </fieldset>
+    <input type="reset" id="boton3" name="boton3" value="Enviar"/>
+</form>
+son tres formularios, se diferencian porque:
+    -el primero esta dentro de un <fieldset> y dos campos los cuales tienen valores predefinidos mediante el atributo value.
+    -el segundo es un formulario sin <fieldset> con los mismos campos pero sin atributo value, por lo cual estan vacios.
+    -el ultimo esta dentro de un <fieldset> al igual que el primero. Se diferencian en que este tiene un atributo action "mailto:xx@xx.com" con method post y enctype="text/plain"
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+i)
+<label>Botón 1
+    <button type="button" name="boton1" id="boton1">
+        <img src="logo.jpg" alt="Botón con imagen " width="30" height="20"> 
+        <br/>
+        <b>CLICK AQUÍ</b>
+    </button>
+</label>
+ <!-- --------------------- -->
+<label>Botón 2
+    <input type="button" name="boton2" id="boton2" value="CLICK AQUÍ" />
+</label>
+Son dos botones con etiqueta, el primero tiene una imagen junto al texto en negrita y el segundo tiene solo el texto
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<p>
+    <label>
+        <input type="radio" name="opcion" id="X" value="X" />
+        X
+    </label>
+    <br/>
+    <label>
+        <input type="radio" name="opcion" id="Y" value="Y" />
+        Y
+    </label>
+</p>
+<!-- ------------------------------------------------------ -->
+<p>
+    <label>
+        <input type="radio" name="opcion1" id="X" value="X" />
+        X
+    </label>
+    <br/>
+    <label>
+        <input type="radio" name="opcion2" id="Y" value="Y" />
+        Y
+    </label>
+</p>
+son cuatro botones del tipo radio. los primeros dos estan en un mismo grupo ya que tienen el mismo atributo nombre por lo cual si seleccionamos uno se deselecciona el otro.
+en los otros dos, estan en grupos separados por tener nombre de atributo distinto por lo tanto podemos seleccionar ambos
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<select name="lista">
+    <optgroup label="Caso 1">
+        <option>Mayo</option>
+        <option>Junio</option>
+    </optgroup>
+    <optgroup label="Caso 2">
+        <option>Mayo</option>
+        <option>Junio</option>
+    </optgroup>
+</select>
+<!-- ------------------------------ -->
+<select name="lista[]" multiple="multiple">
+    <optgroup label=" Caso 1">
+        <option>Mayo</option>
+        <option>Junio</option>
+    </optgroup>
+    <optgroup label=" Caso 2">
+        <option>Mayo</option>
+        <option>Junio</option>
+    </optgroup>
+</select>
+Son dos listas, la primera desplegable con dos categorias en la que se puede elegir solo una opcion
+en la seegunda, al tener el atributo multiple="multiple", se pueden seleccionar varias opciones
