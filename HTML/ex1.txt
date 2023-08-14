@@ -21,6 +21,13 @@ Los DTDs contemplados son:
     -Definiciones de entidades paramétricas.
     -Declaraciones de elementos.
     -Declaraciones de atributos.
+Hay 3 DTDs para HTML 4.01:
+    - Strict DTD: Este DTD define una estructura de documento muy estricta, en la que sólo se permiten elementos y atributos que están definidos en la especificación HTML 4.01. 
+    Este DTD se utiliza para documentos HTML que se ajustan estrictamente a las normas del lenguaje.
+    - Transitional DTD: Este DTD es una versión más flexible del Strict DTD, que permite la inclusión de elementos y atributos que están en desuso en HTML 4.01,
+    pero que aún se utilizan en muchos documentos HTML existentes. Este DTD se utiliza para documentos HTML que aún utilizan elementos y atributos obsoletos, pero que aún necesitan ser visualizados correctamente.
+    - Frameset DTD: Este DTD se utiliza para documentos HTML que utilizan marcos (frames) para dividir la pantalla en varias áreas. 
+    El Frameset DTD es una variante del Transitional DTD que incluye elementos y atributos adicionales para permitir la creación y manejo de marcos.
     
 5)
 Un metadato es información sobre un documento.
