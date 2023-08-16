@@ -1,0 +1,20 @@
+a)
+Ventajas de usar HTML5
+    -Es gratuito
+    -Codigo mas ordenado
+    -Compatibilidad en navegadores
+    -Almacenamiento mejorado
+    -Diseño adaptativo
+b)
+-El lenguaje HTML5 se usa para definir la estructura básica de una página web. Sin 
+embargo, una de sus más grandes adiciones en esta nueva versión es poder añadir 
+audio y video sin necesidad de usar Flash u otro reproductor 
+multimedia.
+-La geolocalización permite al sitio detectar la ubicación de cada usuario que ingresa al sitio web. Esto puede tener diversos usos,
+por ejemplo, para ofrecer opción de idiomas según el lugar de ubicación del usuario o para enlazarlo a la página oficial de la marca 
+en el país en el que se encuentra, entre otras opciones útiles que, dependiendo como la use, pueden mejorar la experiencia de usuario.
+-Con HTML5 se pueden crear animaciones en 2D gracias a la etiqueta < canvas>
+-La gran ventaja de desarrollar aplicaciones HTML5 es que el resultado final es completamente accesible, es decir, se puede acceder a esta 
+aplicación desde un ordenador, tablet o móvil
+-La gran parte de aplicaciones web funcionan desde la nube
+c)
