@@ -1,0 +1,76 @@
+a)
+CSS son las siglas de Cascade Style Sheet que traducido significa hojas de estilo en 
+cascada.
+Las hojas de estilo es una tecnología que nos permite controlar la apariencia de una 
+página web
+b)
+La regla tiene dos partes: un selector y la 
+declaración.
+    El selector funciona como enlace entre el documento y el estilo, especificando los 
+    elementos que se van a ver afectados por esa declaración.
+    La declaración es la parte de la regla que establece cuál será el efecto.
+c)
+Podemos asociar las reglas de estilo a las marcas HTML de tres maneras:
+-directamente a la marca
+-en el head de la página
+-o agrupar las reglas de estilo en un archivo independiente con extensión *.css
+d)
+    - selector de tipo
+    - selector de clase
+    - selector de ID
+    - selector universal
+    - selector de atributos
+    - selector de descendencia
+    - selector de clase descendiente
+
+/* Selector de Tipo */
+h1 {
+  color: blue;
+}
+
+/* Selector de Clase */
+.contenedor {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+/* Selector de ID */
+#mi-id {
+  font-weight: bold;
+}
+
+/* Selector Universal */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Selector de Atributo */
+[peso="ligero"] {
+  font-weight: lighter;
+}
+
+/* Selector de Descendencia */
+div p {
+  font-style: italic;
+}
+
+/* Selector de Clase Descendiente */
+.contenedor p {
+  color: green;
+}
+e)
+Una pseudo-clase en CSS es una palabra clave que se agrega a un selector para definir un estado o comportamiento específico de un elemento
+Son utiles para resaltar visualmente el estado de los enlaces según cómo el usuario interactúa con ellos
+algunas de las mas utilizadas son:
+    -:link
+    -:visited
+    -:hover
+    -:active
+f)
+La herencia en CSS se refiere a que cuando se aplica un estilo a un elemento, ese estilo tambien afectara a los elementos secundarios dentro de el
+Esta es importante ya que permite crear estilos coherentes y eficientes en una pagina web.
+Por ejemplo, si se define un color de texto en un elemento padre <div>, todos los elementos <p> que estén dentro de ese <div> heredarán ese color de texto a menos que se especifique un color diferente para los elementos <p>.
+g)
+El término "cascada" en CSS se refiere al proceso por el cual se aplican y resuelven los estilos a los elementos HTML en función de la especificidad de los selectores y del orden en que se definen las reglas. 
+Este proceso de cascada es fundamental para comprender cómo los estilos se aplican de manera efectiva en una página web.
