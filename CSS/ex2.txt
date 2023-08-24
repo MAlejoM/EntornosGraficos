@@ -1,0 +1,30 @@
+p#normal {
+    font-family: arial,helvetica;
+    font-size: 11px;
+    font-weight: bold;
+}
+/* Este pedazo de codigo se aplica a la id="normal"
+se modifica el tipo de fuente, el tamaño de fuente y se pone la letra en negrita */
+
+*#destacado {
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+}
+/* Este pedazo de codigo se aplica a todas las etiquetas que tengan id="destacado"
+son modificaciones para el borde, se da un estilo, un color y un ancho en px */
+
+#distinto {
+    background-color: #9EC7EB;
+    color: red;
+}
+/* Este pedazo de codigo se aplica a todas las etiquetas con id="distinto"
+se modifica el color de fondo y el color de letra */
+
+<p id="normal">Este es un párrafo</p>
+
+<p id="destacado">Este es otro párrafo</p>
+
+<table id="destacado"><tr><td>Esta es una tabla</td></tr></table>
+
+<p id="distinto">Este es el último párrafo</p>
