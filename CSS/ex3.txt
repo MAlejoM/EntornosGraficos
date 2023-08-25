@@ -1,0 +1,33 @@
+p.quitar {
+    color: red;
+}
+/* se le asigna color rojo a las letras que pertenecen a la clase con valor "quitar" */
+
+*.desarrollo {
+    font-size: 8px;
+}
+/* se le asigna un tamaño de 8px a todas las letras que pertenezcan a la class="desarrollo" */
+
+.importante {
+    font-size: 20px;
+}
+<p class="desarrollo"> 
+/* se asigna un tamaño de 20px a las letras que esten dentro de una class="importante" */
+
+En este primer párrafo trataremos lo siguiente:
+<br />xxxxxxxxxxxxxxxxxxxxxxxxx
+</p>
+<p class="quitar">
+Este párrafo debe ser quitado de la obra…
+<br />xxxxxxxxxxxxxxxxxxxxxxxxx
+</p>
+<p >
+En este otro párrafo trataremos otro tema:<br />
+xxxxxxxxxxxxxxxxxxxxxxxxx
+</p>
+<p class="importante">
+Y este es el párrafo más importante de la obra…
+<br />xxxxxxxxxxxxxxxxxxxxxxxxx
+</ p>
+<h1 class="quitar">Este encabezado también debe ser quitado de la obra</h1>
+<p class="quitar importante">Se pueden aplicar varias clases a la vez</p>

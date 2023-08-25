@@ -63,10 +63,10 @@ e)
 Una pseudo-clase en CSS es una palabra clave que se agrega a un selector para definir un estado o comportamiento específico de un elemento
 Son utiles para resaltar visualmente el estado de los enlaces según cómo el usuario interactúa con ellos
 algunas de las mas utilizadas son:
-    -:link
-    -:visited
-    -:hover
-    -:active
+  -:link
+  -:visited
+  -:hover
+  -:active    
 f)
 La herencia en CSS se refiere a que cuando se aplica un estilo a un elemento, ese estilo tambien afectara a los elementos secundarios dentro de el
 Esta es importante ya que permite crear estilos coherentes y eficientes en una pagina web.
