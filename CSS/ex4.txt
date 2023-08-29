@@ -1,0 +1,39 @@
+* {color:green; } /* se le da un color verde a todo el texto */
+a:link {color:gray } /* hace que todas las etiquetas <a>, antes de hacer click en el enlace, tengan un color gris */
+a:visited{color:blue } /* hace que todas las etiquetas <a>, despues de hacer click en el enlace, tengan un color rojo */ */
+a:hover {color:fuchsia } /* cuando se pase el cursor por encima de todas las etiquetas <a>, este se cambiara a color fuxia */
+a:active {color:red } /* cuando se hace click en un enlace, el color del texto cambia a rojo */
+p {font-family: arial,helvetica;font-size: 10px;color:black; } /* modifica el estilo, tamaño y color del texto en las etiquetas <p> */
+.contenido{font-size: 14px;font-weight: bold; } /* modifica el tipo y tamaño de letra a todo lo que se encuentre en la clase "contenido" */
+
+PRIMER CASO:
+<body>
+<p class="contenido" style="font-weight: normal;">
+Este es un texto ...............</p>
+<table>
+<tr>
+<td>Y esta es una tabla.......</td>
+</tr>
+<tr>
+<td><a href="http://www.google.com.ar">con un
+enlace</a></td>
+</tr>
+</table>
+</body>
+
+SEGUNDO CASO:
+<body class="contenido">
+<p> Este es un texto................</p>
+<table>
+<tr>
+<td>Y esta es una tabla.......</td>
+</tr>
+<tr>
+<td><a href="http://www.google.com.ar">con 
+un enlace</a></td>
+</tr>
+</table>
+</body>
+
+En el segundo código establece un estilo coherente para todo el contenido dentro del cuerpo mediante la clase "contenido", 
+mientras que en el primer código se aplican estilos específicos en línea y las reglas CSS para párrafos y enlaces.
