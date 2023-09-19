@@ -1,0 +1,15 @@
+.contenedor{
+    background-color: rgb(244, 181, 87);
+    border: 10px dotted firebrick;
+    padding: 10px;
+}
+
+.fila{
+    background-color: rgb(89, 119, 218);
+    padding: 10px;
+}
+
+.columna{
+    background-color: rgb(0, 255, 225);
+    padding: 10px;
+}

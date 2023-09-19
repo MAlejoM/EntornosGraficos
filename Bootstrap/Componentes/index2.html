@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Componentes 2</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+</head>
+    <body class="container bg-secondary">
+        <h1>Formulario de contacto</h1>
+        <form>
+          <div class="mb-3 col-md-8 offset-md-2">
+            <label for="name" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="name" name="name" required />
+          </div>
+          <div class="mb-3 col-md-8 offset-md-2">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" name="email" required />
+          </div>
+          <div class="mb-3 col-md-8 offset-md-2">
+            <label for="phone" class="form-label">Tel</label>
+            <input type="tel" class="form-control" id="phone" name="phone"/>
+          </div>
+          <div class="mb-3 col-md-8 offset-md-2">
+            <label for="subject" class="form-label">Asunto</label>
+            <input type="text" class="form-control" id="subject" name="subject" required />
+          </div>
+          <div class="mb-3 col-12">
+            <label for="msj-body">Mensaje</label>
+            <textarea class="form-control" id="msj-body" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary float-end">Enviar</button>
+        </form>
+    </body>
+</html>

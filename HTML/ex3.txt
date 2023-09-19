@@ -12,7 +12,7 @@ la url esta mal, no nos redirecciona a ningun lado; luego nos indica el tipo de 
 recarga la pagina actual
 
 <a href="#arriba">Click aquí para volver arriba</a>
-nos dirige a la seccion de la pagina que tenga "arriba" como in
+nos dirige a la seccion de la pagina que tenga "arriba" como id
 
 <a name="arriba" id="arriba"></a>
 parecido al caso anterior, pero al no tener href no funciona como hipervinculo
