@@ -1,0 +1,52 @@
+<?php
+function doble($i) {
+ return $i*2;
+}
+$a = TRUE; 
+$b = "xyz"; 
+$c = 'xyz';
+$d = 12; 
+echo gettype($a);
+echo gettype($b); 
+echo gettype($c);
+echo gettype($d); 
+if (is_int($d)) {
+ $d += 4;
+}
+if (is_string($a)) {
+ echo "Cadena: $a";
+}
+$d = $a ? ++$d : $d*3;
+$f = doble($d++);
+$g = $f += 10;
+echo $a, $b, $c, $d, $f , $g;
+?> 
+-------------------------------------------------------------------------------------------------------------------
+variables y tipos: 
+    - $a; es booleano
+    - $b; es string
+    - $c; es string
+    - $d; es integer
+    - $f; es integer
+    - $g; es integer
+-------------------------------------------------------------------------------------------------------------------
+operadores: 
+    - x * y multiplicacion
+    - x = y asignacion
+    - x += y asignacion con incremento
+    - x? y : z operador ternario
+    - x++ post-incremento
+    - ++x pre-incremento
+-------------------------------------------------------------------------------------------------------------------
+funciones y parametros: 
+    - gettype() devuelve el tipo de la variable
+    - is_int() devuelve true si la variable es integer
+    - is_string() devuelve true si la variable es string
+    - doble() devuelve el doble de la variable
+-------------------------------------------------------------------------------------------------------------------
+estructuras de control:
+    - if(){}else{} estructura de control condicional
+-------------------------------------------------------------------------------------------------------------------
+salida por pantalla:
+    - echo muestra por pantalla el contenido de las variables.
+------------------------------------------------------------------------------------------------------------------- 
